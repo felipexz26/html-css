@@ -3,19 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Passion+One:wght@400;700;900&family=Playwrite+BR:wght@100..400&display=swap');
 
 
-@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 
 
 :root{
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
-    --fonte3: 'Monsieur La Doulaise', cursive;
+    --fonte3: 'Mr Dafoe', cursive;
 }
 
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
 }
 
 html, body{
@@ -34,6 +34,7 @@ header>h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
+    font-size: 10vw;
 }
 
 header>p{
@@ -55,7 +56,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--fonte3);
+    font-family:var(--fonte3);
+    font-size: 3.5vw;
 }
 
 section.normal{
@@ -69,7 +71,8 @@ section.imagem{
 }
 
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.253);
 }
 
